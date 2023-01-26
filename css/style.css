@@ -266,40 +266,74 @@
     animation: thirteen-top 2s infinite;
 }
 
-/* @keyframes thirteen-top{
+@keyframes thirteen-top{
  0%{
     top: -10px;
     left: 10%;
    }
 
- 30%{
+ 25%{
     top: -10px;
-    left: 55%;
+    left: 140px;
  }  
 
- 45%{
-    top: 20px;
-    left: -10%;
+ 50%{
+    top:  60px;
+    left: 140px;
 
  }
 
  75%{
-    top: 100%;
-     left: 10%;
- }
-
- 90%{
-    top: 100%;
-    left: 60%;
-
+    top:  60px;
+     left: -10px;
  }
 
  100%{
-    top:100%;
-    left: -10%;
+    top: -10px;
+    left:  -10px;
+
+   
+
+ }
+
 }
 
-} */
+.ex-13-button:hover .ex-13-bottom-white{
+    animation: thirteen-bot 2s infinite;
+}
+ 
+@keyframes thirteen-bot{
+    0%{
+        bottom: -10px;
+        right: 20%;
+    }
+
+
+    25%{
+        bottom: -10px;
+        right: 140px;
+    }
+
+    50%{
+        bottom: 60px;
+        right: 140px;
+    }
+
+    75%{
+        bottom: 60px;
+        right: -10px;
+
+    }
+
+
+    100%{
+        bottom: -10px;
+        right: -10px;
+    }
+
+}
+
+
 
 
 
