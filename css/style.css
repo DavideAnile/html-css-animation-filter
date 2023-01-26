@@ -228,10 +228,10 @@
 
   50%{
     top: -10px;
-    left: 55%;
+    left: 60%;
   }
   100%{
-    bottom: 0;
+    top: -10px;
     left: 10%;
   }
 
